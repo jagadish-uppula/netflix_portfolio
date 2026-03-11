@@ -58,3 +58,31 @@ export interface Skill {
   description: string;
   icon: string;
 }
+
+export interface Recommendation {
+  name: string;
+  title: string;
+  date: string;
+  text: string[];
+  image: string;
+}
+
+export interface Blog {
+  title: string;
+  date: string;
+  summary: string;
+  link: string;
+  image: string;
+}
+
+export interface MusicItem {
+  title: string;
+  artist: string;
+  image: string;
+}
+
+export interface Book {
+  title: string;
+  author: string;
+  image: string;
+}
